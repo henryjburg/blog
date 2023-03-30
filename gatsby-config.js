@@ -1,7 +1,5 @@
 /**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
+ * Gatsby site configuration file
  */
 
 /**
@@ -12,7 +10,7 @@ module.exports = {
     title: `Henry Burgess`,
     author: {
       name: `Henry Burgess`,
-      summary: `who lives in St. Louis and works in neuroscience.`,
+      summary: `who lives in St. Louis, working in neuroscience.`,
     },
     description: `Documenting some of my thoughts and adventures.`,
     siteUrl: `https://henryburgess.net`,
