@@ -1,0 +1,41 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "My blog",
+  "main": "index.js",
+  "author": "Henry Burgess <henryjburg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@fontsource/merriweather": "^4.5.14",
+    "@fontsource/montserrat": "^4.5.14",
+    "gatsby": "^5.8.1",
+    "gatsby-plugin-feed": "^5.8.0",
+    "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-manifest": "^5.8.0",
+    "gatsby-plugin-sharp": "^5.8.1",
+    "gatsby-remark-images": "^7.8.0",
+    "gatsby-remark-prismjs": "^7.8.0",
+    "gatsby-remark-responsive-iframe": "^6.8.0",
+    "gatsby-source-filesystem": "^5.8.0",
+    "gatsby-transformer-remark": "^6.8.0",
+    "gatsby-transformer-sharp": "^5.8.0",
+    "prismjs": "^1.29.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henry-burgess/blog.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  }
+}
