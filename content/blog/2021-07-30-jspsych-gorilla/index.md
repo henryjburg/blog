@@ -1,6 +1,6 @@
 ---
 title: Moving jsPsych experiments online to Gorilla
-date: "2021-12-30"
+date: "2021-07-30"
 description: "A guide to moving jsPsych online to the Gorilla online behavioral experiment platform."
 ---
 
