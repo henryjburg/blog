@@ -34,7 +34,7 @@
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-serif);
-  --font-heading: var(--fontFamily-sans);
+  --font-heading: var(--fontFamily-serif);
   --fontWeight-normal: 400;
   --fontWeight-bold: 700;
   --fontWeight-black: 900;
@@ -52,7 +52,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
+  --color-primary: #373737;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -315,6 +315,13 @@ a:focus {
 
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-4);
+  align-items: center;
 }
 
 /* Media queries */
