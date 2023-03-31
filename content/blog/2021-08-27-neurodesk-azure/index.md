@@ -1,6 +1,6 @@
 ---
 title: NeuroDesk on Microsoft Azure
-date: "2021-09-27"
+date: "2021-08-27"
 description: "After creating a free account with Azure, you can set up a Linux Virtual Machine to run an instance of NeuroDesk."
 ---
 
