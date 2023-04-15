@@ -2,6 +2,7 @@
 title: NeuroDesk on Microsoft Azure
 date: "2021-08-27"
 description: "After creating a free account with Azure, you can set up a Linux Virtual Machine to run an instance of NeuroDesk."
+archive: true
 ---
 
 ⚠️ **This guide is outdated, please read the updates at the [end](#updates) of this post for up-to-date advice.**
@@ -110,7 +111,9 @@ mkdir ~/vnm
 
 Start the NeuroDesk container (this may take a while):
 
-```sudo docker run --privileged --name vnm -v ~/vnm:/vnm -v /dev/shm:/dev/shm -e USER=neuro -p 6080:80 vnmd/vnm:20210708```
+```Bash
+sudo docker run --privileged --name vnm -v ~/vnm:/vnm -v /dev/shm:/dev/shm -e USER=neuro -p 6080:80 vnmd/vnm:20210708
+```
 
 Once the container has started and you see a message similar to `novnc entered RUNNING state`, you are ready to go!
 

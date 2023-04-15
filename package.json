@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henry-burgess/blog.git"
+    "url": "git+https://github.com/henryjburg/blog.git"
   },
   "scripts": {
     "build": "gatsby build",
