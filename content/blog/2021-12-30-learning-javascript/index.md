@@ -2,6 +2,7 @@
 title: Learning JavaScript
 date: "2021-12-30"
 description: "My head spent the year in JavaScript, I've dumped some of my experiences and learnings here."
+archive: true
 ---
 
 Here I want to write a bit about my adventure being new to JavaScript as a software engineering grad. My coursework focussed on OOP-adjacent languages such as Java and Python, and I had little-to-no coursework using JavaScript.
