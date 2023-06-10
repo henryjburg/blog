@@ -1,9 +1,13 @@
-import * as React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+/**
+ * Layout component to standarize the dimensions and components on each page
+ */
+
+import * as React from "react";
+import { useStaticQuery, graphql, Link } from "gatsby";
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
+  const rootPath = `${__PATH_PREFIX__}/`;
+  const isRootPath = location.pathname === rootPath;
 
   const data = useStaticQuery(graphql`
     query LayoutQuery {
@@ -17,22 +21,22 @@ const Layout = ({ location, title, children }) => {
         }
       }
     }
-  `)
-  const social = data.site.siteMetadata?.social
+  `);
+  const social = data.site.siteMetadata?.social;
 
-  let header
+  let header;
   if (isRootPath) {
     header = (
       <h1 className="main-heading">
         <Link to="/">{title}</Link>
       </h1>
-    )
+    );
   } else {
     header = (
       <Link className="header-link-home" to="/">
         {title}
       </Link>
-    )
+    );
   }
 
   return (
@@ -41,22 +45,17 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <footer>
         <div className="footer-links">
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Twitter
-          </a>
+          <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a>
           <a href={`https://instagram.com/${social?.instagram || ``}`}>
             Instagram
           </a>
-          <a href={`https://github.com/${social?.github || ``}`}>
-            GitHub
-          </a>
+          <a href={`https://github.com/${social?.github || ``}`}>GitHub</a>
         </div>
-        © {new Date().getFullYear()},
-        {` `}
+        © {new Date().getFullYear()},{` `}
         Henry Burgess
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

@@ -83,8 +83,8 @@ module.exports = {
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
                   custom_elements: [{ "content:encoded": node.html }],
-                })
-              })
+                });
+              });
             },
             query: `{
               allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
@@ -110,9 +110,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          "G-R9RSQZLT8C",
-        ],
+        trackingIds: ["G-R9RSQZLT8C"],
         pluginConfig: {
           head: false,
           respectDNT: true,
@@ -133,4 +131,4 @@ module.exports = {
       },
     },
   ],
-}
+};

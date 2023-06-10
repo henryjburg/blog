@@ -1,13 +1,10 @@
 /**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
+ * Bio component that displays a profile photo and brief introduction
  */
 
-import * as React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { useStaticQuery, graphql, Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -24,9 +21,9 @@ const Bio = () => {
         }
       }
     }
-  `)
+  `);
 
-  const author = data.site.siteMetadata?.author
+  const author = data.site.siteMetadata?.author;
 
   return (
     <div className="bio">
@@ -41,10 +38,13 @@ const Bio = () => {
         alt="Profile picture"
       />
       {author?.name && (
-        <p>A little travel diary and blog by <strong>{author.name}</strong>. {author?.summary || null} <Link to={"/about"}>About Me →</Link></p>
+        <p>
+          A little travel diary and blog by <strong>{author.name}</strong>.{" "}
+          {author?.summary || null} <Link to={"/about"}>About Me →</Link>
+        </p>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default Bio
+export default Bio;
