@@ -9,10 +9,7 @@ const Index = ({ data, location }) => {
   const title = data.site.siteMetadata?.title || `Home`;
   const posts = data.allMarkdownRemark.nodes;
 
-  const archivedPosts = posts.filter((post) => {
-    return post.frontmatter.archive;
-  });
-  const activePosts = posts.filter((post) => {
+  const activePosts = posts.filter(post => {
     return !post.frontmatter.archive;
   });
 
@@ -22,7 +19,7 @@ const Index = ({ data, location }) => {
         <Bio />
         <p>No posts just yet!</p>
       </Layout>
-    )
+    );
   }
 
   return (
@@ -57,19 +54,19 @@ const Index = ({ data, location }) => {
                 </section>
               </article>
             </li>
-          )
+          );
         })}
       </ol>
     </Layout>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;
 
 /**
  * Head export to define metadata for the page
  */
-export const Head = () => <Seo title="All posts" />
+export const Head = () => <Seo title="Henry Burgess" />;
 
 export const pageQuery = graphql`
   {
@@ -93,4 +90,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
