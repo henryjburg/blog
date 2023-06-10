@@ -10,7 +10,7 @@ const NotFoundPage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <h1>404: Not Found</h1>
-      <p>You just hit a route that doesn&#39;t exist!</p>
+      <p>Oh no! I can&#39;t find that.</p>
     </Layout>
   )
 }

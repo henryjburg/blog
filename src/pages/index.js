@@ -5,14 +5,14 @@ import Bio from "../components/bio";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 
-const BlogIndex = ({ data, location }) => {
-  const title = data.site.siteMetadata?.title || `Title`;
+const Index = ({ data, location }) => {
+  const title = data.site.siteMetadata?.title || `Home`;
   const posts = data.allMarkdownRemark.nodes;
 
-  const archivedPosts = data.allMarkdownRemark.nodes.filter((post) => {
+  const archivedPosts = posts.filter((post) => {
     return post.frontmatter.archive;
   });
-  const activePosts = data.allMarkdownRemark.nodes.filter((post) => {
+  const activePosts = posts.filter((post) => {
     return !post.frontmatter.archive;
   });
 
@@ -20,7 +20,7 @@ const BlogIndex = ({ data, location }) => {
     return (
       <Layout location={location} title={title}>
         <Bio />
-        <p>No blog posts found!</p>
+        <p>No posts just yet!</p>
       </Layout>
     )
   }
@@ -64,12 +64,10 @@ const BlogIndex = ({ data, location }) => {
   )
 }
 
-export default BlogIndex
+export default Index
 
 /**
  * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
 export const Head = () => <Seo title="All posts" />
 
