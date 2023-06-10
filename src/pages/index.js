@@ -66,7 +66,7 @@ export default Index;
 /**
  * Head export to define metadata for the page
  */
-export const Head = () => <Seo title="Henry Burgess" />;
+export const Head = () => <Seo title="Home" />;
 
 export const pageQuery = graphql`
   {
