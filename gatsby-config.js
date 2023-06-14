@@ -18,6 +18,7 @@ module.exports = {
       twitter: `henryjburg`,
       instagram: `henryjburg`,
       github: `henryjburg`,
+      linkedin: `henryjburg`,
     },
   },
   plugins: [
