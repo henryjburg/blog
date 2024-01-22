@@ -10,7 +10,7 @@ module.exports = {
     title: `Henry Burgess`,
     author: {
       name: `Henry Burgess`,
-      summary: `From Australia, based in St. Louis.`,
+      summary: `From Australia, now in St. Louis.`,
     },
     description: `Documenting my travels and adventures!`,
     siteUrl: `https://henryburgess.net`,
