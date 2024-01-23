@@ -4,7 +4,7 @@ date: "2022-08-25"
 archive: false
 ---
 
-Half Dome was easily the biggest adrenaline rush I had during my time in Yosemite National Park. I was fortunate enough to get lottery
+Climbing Half Dome was easily the biggest adrenaline rush I had during my time in Yosemite National Park. I was fortunate enough to get lottery
 passes to do Half Dome after applying only a day or so before!
 
 ![hd_me.png](hd_me.png)

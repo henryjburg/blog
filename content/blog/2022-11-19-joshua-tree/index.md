@@ -25,7 +25,7 @@ It was an amazing experience being so isolated with such a beautiful landscape a
 ![jt_tree.png](jt_tree.png)
 
 The following day, I hiked around 8 miles to exit the park. I then headed to an interesting little trail that went
-inside one of the large rock piles around the park and through what was known as the "Chasm of Doom". I was drawn to
+inside one of the large rock piles around the park and through what was known as the **"Chasm of Doom"**. I was drawn to
 this partly due to the name, but also the challenge - you needed to squeeze yourself through a gap between two rocks
 hardly 1 foot apart!
 
