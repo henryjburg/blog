@@ -1,10 +1,15 @@
-// custom typefaces
+// Custom typefaces
 import "@fontsource/montserrat/variable.css";
 import "@fontsource/merriweather";
-// normalize CSS across browsers
+
+// Normalize CSS across browsers
 import "./src/normalize.css";
-// custom CSS styles
+
+// Custom CSS styles
 import "./src/style.css";
+
+// Leaflet styles
+import "leaflet/dist/leaflet.css";
 
 // Highlighting for code blocks
 import "prismjs/themes/prism.css";

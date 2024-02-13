@@ -7,16 +7,16 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Henry Burgess`,
+    title: `Henry's Travel Diary`,
     author: {
       name: `Henry Burgess`,
-      summary: `From Australia, now in St. Louis.`,
+      summary: `I love to go on new adventures and explore what the USA has to offer!`,
     },
-    description: `Documenting my travels and adventures!`,
+    description: `Henry's travel adventures in the USA and around the world!`,
     siteUrl: `https://henryburgess.net`,
     social: {
-      twitter: `henryjburg`,
       instagram: `henryjburg`,
+      x: `henryjburg`,
       github: `henryjburg`,
       linkedin: `henryjburg`,
     },
@@ -119,6 +119,12 @@ module.exports = {
           delayOnRouteUpdate: 0,
         },
       },
+    },
+    {
+      resolve: 'gatsby-plugin-react-leaflet',
+      options: {
+        linkStyles: false,
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
