@@ -1,0 +1,368 @@
+{
+  "locations": [
+    {
+      "name": "Brisbane, Queensland",
+      "time": "",
+      "lat": -27.469770,
+      "long": 153.025131,
+      "summary": ""
+    },
+    {
+      "name": "Osaka, Kansai",
+      "time": "2006",
+      "lat": 34.693737,
+      "long": 135.502167,
+      "summary": ""
+    },
+    {
+      "name": "Devonport, Tasmania",
+      "time": "2010",
+      "lat": -41.178360,
+      "long": 146.361374,
+      "summary": ""
+    },
+    {
+      "name": "Launceston, Tasmania",
+      "time": "2010",
+      "lat": -41.433224,
+      "long": 147.144089,
+      "summary": ""
+    },
+    {
+      "name": "Hobart, Tasmania",
+      "time": "2010",
+      "lat": -42.8823228,
+      "long": 147.3090725,
+      "summary": ""
+    },
+    {
+      "name": "Bunya Mountains National Park, Queensland",
+      "time": "",
+      "lat": -26.8756829,
+      "long": 151.4123133,
+      "summary": ""
+    },
+    {
+      "name": "Cairns, Queensland",
+      "time": "",
+      "lat": -16.880132,
+      "long": 145.5521339,
+      "summary": ""
+    },
+    {
+      "name": "Sunshine Coast, Queensland",
+      "time": "",
+      "lat": -26.6045081,
+      "long": 152.4502858,
+      "summary": ""
+    },
+    {
+      "name": "Sydney, New South Wales",
+      "time": "",
+      "lat": -33.8472349,
+      "long": 150.6023328,
+      "summary": ""
+    },
+    {
+      "name": "Byron Bay, New South Wales",
+      "time": "",
+      "lat": -28.6467867,
+      "long": 153.5616998,
+      "summary": ""
+    },
+    {
+      "name": "Melbourne, Victoria",
+      "time": "",
+      "lat": -37.9696433,
+      "long": 144.3937615,
+      "summary": ""
+    },
+    {
+      "name": "Alice Springs, Northern Territory",
+      "time": "",
+      "lat": -23.6993435,
+      "long": 133.8749801,
+      "summary": ""
+    },
+    {
+      "name": "Uluṟu-Kata Tjuṯa National Park, Northern Territory",
+      "time": "",
+      "lat": -25.345027,
+      "long": 131.0328354,
+      "summary": ""
+    },
+    {
+      "name": "Kaltukatjara, Northern Territory",
+      "time": "",
+      "lat": -24.8652876,
+      "long": 129.0634835,
+      "summary": ""
+    },
+    {
+      "name": "Coober Pedy, South Australia",
+      "time": "",
+      "lat": -29.0069887,
+      "long": 134.4915662,
+      "summary": ""
+    },
+    {
+      "name": "Adelaide, South Australia",
+      "time": "",
+      "lat": -34.9997588,
+      "long": 138.2815188,
+      "summary": ""
+    },
+    {
+      "name": "Dalian, Liaoninig",
+      "time": "2018",
+      "lat": 38.930007,
+      "long": 121.4459478,
+      "summary": ""
+    },
+    {
+      "name": "Shenyang, Liaoninig",
+      "time": "2018",
+      "lat": 41.8053718,
+      "long": 123.1068575,
+      "summary": ""
+    },
+    {
+      "name": "Christchurch, New Zealand",
+      "time": "2018",
+      "lat": -43.5117751,
+      "long": 172.4341954,
+      "summary": ""
+    },
+    {
+      "name": "Dunedin, New Zealand",
+      "time": "2018",
+      "lat": -45.8827594,
+      "long": 170.3830393,
+      "summary": ""
+    },
+    {
+      "name": "Queenstown, New Zealand",
+      "time": "2018",
+      "lat": -44.9966949,
+      "long": 168.6173987,
+      "summary": ""
+    },
+    {
+      "name": "Te Anau, New Zealand",
+      "time": "2018",
+      "lat": -45.3808007,
+      "long": 167.7358389,
+      "summary": ""
+    },
+    {
+      "name": "Milford Sound, New Zealand",
+      "time": "2018",
+      "lat": -44.6231522,
+      "long": 167.771936,
+      "summary": ""
+    },
+    {
+      "name": "Mt. Cook, New Zealand",
+      "time": "2018",
+      "lat": -43.5949583,
+      "long": 170.1314886,
+      "summary": ""
+    },
+    {
+      "name": "Armidale, New South Wales",
+      "time": "",
+      "lat": -30.5004145,
+      "long": 151.5849924,
+      "summary": ""
+    },
+    {
+      "name": "St. Louis, Missouri",
+      "time": "2021",
+      "lat": 38.653253,
+      "long": -90.4082702,
+      "summary": ""
+    },
+    {
+      "name": "St. Louis, Missouri",
+      "time": "2021",
+      "lat": 38.653253,
+      "long": -90.4082702,
+      "summary": ""
+    },
+    {
+      "name": "Chicago, Illinois",
+      "time": "2022",
+      "lat": 41.878113,
+      "long": -87.629799,
+      "summary": ""
+    },
+    {
+      "name": "Frisco, Texas",
+      "time": "2022",
+      "lat": 33.1502093,
+      "long": -96.910199,
+      "summary": ""
+    },
+    {
+      "name": "New York City, New York",
+      "time": "2022",
+      "lat": 40.69754,
+      "long": -74.3093224,
+      "summary": ""
+    },
+    {
+      "name": "Grand Canyon, Arizona",
+      "time": "2022",
+      "lat": 36.0997795,
+      "long": -112.1227843,
+      "summary": ""
+    },
+    {
+      "name": "Las Vegas, Nevada",
+      "time": "2022",
+      "lat": 36.1251645,
+      "long": -115.3398087,
+      "summary": ""
+    },
+    {
+      "name": "Santa Monica, California",
+      "time": "2022",
+      "lat": 34.0219248,
+      "long": -118.5219551,
+      "summary": ""
+    },
+    {
+      "name": "Anaheim, California",
+      "time": "2022",
+      "lat": 33.8341058,
+      "long": -117.9278932,
+      "summary": ""
+    },
+    {
+      "name": "Mt. Whitney, California",
+      "time": "2022",
+      "lat": 36.5785154,
+      "long": -118.3025597,
+      "summary": ""
+    },
+    {
+      "name": "Yosemite National Park, California",
+      "time": "2022",
+      "lat": 37.8533919,
+      "long": -119.8807535,
+      "summary": ""
+    },
+    {
+      "name": "Golden Trout Wilderness, California",
+      "time": "2022",
+      "lat": 36.4365391,
+      "long": -118.7376683,
+      "summary": ""
+    },
+    {
+      "name": "San Francisco, California",
+      "time": "2022",
+      "lat": 37.7577607,
+      "long": -122.4787996,
+      "summary": ""
+    },
+    {
+      "name": "Columbia, Missouri",
+      "time": "2022",
+      "lat": 38.9465985,
+      "long": -92.4132397,
+      "summary": ""
+    },
+    {
+      "name": "San Diego, California",
+      "time": "2022",
+      "lat": 32.8246976,
+      "long": -117.4386255,
+      "summary": ""
+    },
+    {
+      "name": "Joshua Tree National Park, California",
+      "time": "2022",
+      "lat": 33.9001129,
+      "long": -116.190327,
+      "summary": ""
+    },
+    {
+      "name": "Washington D.C., District of Columbia",
+      "time": "2023",
+      "lat": 38.8938592,
+      "long": -77.0969768,
+      "summary": ""
+    },
+    {
+      "name": "Georgetown, District of Columbia",
+      "time": "2023",
+      "lat": 38.9048495,
+      "long": -77.0727772,
+      "summary": ""
+    },
+    {
+      "name": "Arlington, Virginia",
+      "time": "2023",
+      "lat": 38.8793751,
+      "long": -77.1308144,
+      "summary": ""
+    },
+    {
+      "name": "Alexandria, Virginia",
+      "time": "2023",
+      "lat": 38.8151731,
+      "long": -77.132023,
+      "summary": ""
+    },
+    {
+      "name": "Kansas City, Missouri",
+      "time": "2023",
+      "lat": 39.0919879,
+      "long": -94.9053621,
+      "summary": ""
+    },
+    {
+      "name": "Iowa City, Iowa",
+      "time": "2023",
+      "lat": 41.6476557,
+      "long": -91.5819441,
+      "summary": ""
+    },
+    {
+      "name": "Hannibal, Missouri",
+      "time": "2023",
+      "lat": 39.7129221,
+      "long": -91.4328846,
+      "summary": ""
+    },
+    {
+      "name": "Shark Fin Cove, California",
+      "time": "2024",
+      "lat": 37.0041028,
+      "long": -122.1957135,
+      "summary": ""
+    },
+    {
+      "name": "Monterey, California",
+      "time": "2024",
+      "lat": 36.6109639,
+      "long": -121.9086985,
+      "summary": ""
+    },
+    {
+      "name": "Carmel-by-the-Sea, California",
+      "time": "2024",
+      "lat": 36.5526637,
+      "long": -121.9326232,
+      "summary": ""
+    },
+    {
+      "name": "Santa Cruz, California",
+      "time": "2024",
+      "lat": 36.9759529,
+      "long": -122.0886796,
+      "summary": ""
+    }
+  ]
+}
