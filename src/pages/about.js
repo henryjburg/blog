@@ -44,6 +44,10 @@ const About = ({ data, location }) => {
         <p>
           Thanks for reading this little diary.
         </p>
+      </div>
+
+      <div>
+        <h3>Where I've Travelled!</h3>
 
         <Map />
       </div>

@@ -16,7 +16,7 @@ const Bio = () => {
             summary
           }
           social {
-            twitter
+            x
           }
         }
       }

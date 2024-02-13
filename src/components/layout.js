@@ -14,7 +14,7 @@ const Layout = ({ location, title, children }) => {
       site {
         siteMetadata {
           social {
-            twitter
+            x
             instagram
             github
             linkedin
