@@ -1,6 +1,6 @@
 import * as React from "react";
+import L from "leaflet";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import * as L from "leaflet";
 
 // Updated pin graphic
 import pin from "../images/pin.png";
@@ -9,14 +9,19 @@ import pin from "../images/pin.png";
 import locationData from "../data/locations.json";
 
 const Map = () => {
-  // Create a new pin icon
-  const pinIcon = new L.icon({
-    iconUrl: pin,
-    iconSize: [30, 30],
-  });
+  // Use `null` default values to address issue with Leaflet imports and Webpack
+  let pinIcon = null;
+  let mapBounds = null;
+  if (typeof window !== "undefined") {
+    // Create a new pin icon if the window is defined
+    pinIcon = L.icon({
+      iconUrl: pin,
+      iconSize: [30, 30],
+    });
 
-  // Setup map bounds
-  const mapBounds = L.latLngBounds(L.latLng(-90, -200),  L.latLng(90, 200));
+    // Setup map bounds
+    mapBounds = L.latLngBounds(L.latLng(-90, -200),  L.latLng(90, 200));
+  }
 
   return (
     <MapContainer style={{ height: "400px" }} center={[51.505, -0.09]} zoom={2} scrollWheelZoom={false} maxBoundsViscosity={1.0} maxBounds={mapBounds}>
