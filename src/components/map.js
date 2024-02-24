@@ -24,7 +24,7 @@ const Map = () => {
   }
 
   return (
-    <MapContainer style={{ height: "400px" }} center={[51.505, -0.09]} zoom={2} scrollWheelZoom={false} maxBoundsViscosity={1.0} maxBounds={mapBounds}>
+    <MapContainer style={{ height: "400px" }} center={[38.653253, -90.4082702]} zoom={2} scrollWheelZoom={false} maxBoundsViscosity={1.0} maxBounds={mapBounds}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
