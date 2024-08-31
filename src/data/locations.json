@@ -363,6 +363,48 @@
       "lat": 36.1861886,
       "long": -87.1148965,
       "summary": ""
+    },
+    {
+      "name": "Hays, Kansas",
+      "time": "2024",
+      "lat": 38.881058,
+      "long": -99.3593736,
+      "summary": ""
+    },
+    {
+      "name": "Denver, Colorado",
+      "time": "2024",
+      "lat": 39.7643986,
+      "long": -105.185451,
+      "summary": ""
+    },
+    {
+      "name": "Estes Park, Colorado",
+      "time": "2024",
+      "lat": 40.3664405,
+      "long": -105.5744336,
+      "summary": ""
+    },
+    {
+      "name": "Lake City, Colorado",
+      "time": "2024",
+      "lat": 38.028863,
+      "long": -107.331261,
+      "summary": ""
+    },
+    {
+      "name": "Moab, Utah",
+      "time": "2024",
+      "lat": 38.5744297,
+      "long": -109.5720611,
+      "summary": ""
+    },
+    {
+      "name": "Colorado Springs, Colorado",
+      "time": "2024",
+      "lat": 38.8758354,
+      "long": -104.9235137,
+      "summary": ""
     }
   ]
 }
