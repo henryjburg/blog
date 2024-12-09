@@ -49,7 +49,6 @@ const Layout = ({ location, title, children }) => {
           <a href={`https://instagram.com/${social?.instagram || ``}`}>
             Instagram
           </a>
-          <a href={`https://x.com/${social?.x || ``}`}>X</a>
           <a href={`https://linkedin.com/in/${social?.linkedin || ``}`}>LinkedIn</a>
           <a href={`https://github.com/${social?.github || ``}`}>GitHub</a>
         </div>
