@@ -16,7 +16,6 @@ module.exports = {
     siteUrl: `https://henryburgess.net`,
     social: {
       instagram: `henryjburg`,
-      x: `henryjburg`,
       github: `henryjburg`,
       linkedin: `henryjburg`,
     },
