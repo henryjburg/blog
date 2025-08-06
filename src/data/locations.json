@@ -412,6 +412,76 @@
       "lat": 39.768402,
       "long": -86.158066,
       "summary": ""
+    },
+    {
+      "name": "Gatlinburg, Tennessee",
+      "time": "2024",
+      "lat": 35.7272984,
+      "long": -83.5394185,
+      "summary": ""
+    },
+    {
+      "name": "Naples, Florida",
+      "time": "2025",
+      "lat": 26.145051,
+      "long": -81.8760859,
+      "summary": ""
+    },
+    {
+      "name": "Bozeman, Montana",
+      "time": "2025",
+      "lat": 45.6829933,
+      "long": -111.1345975,
+      "summary": ""
+    },
+    {
+      "name": "Missoula, Montana",
+      "time": "2025",
+      "lat": 46.8707163,
+      "long": -114.0949014,
+      "summary": ""
+    },
+    {
+      "name": "West Glacier, Montana",
+      "time": "2025",
+      "lat": 48.4930481,
+      "long": -114.0364624,
+      "summary": ""
+    },
+    {
+      "name": "Polebridge, Montana",
+      "time": "2025",
+      "lat": 48.7626489,
+      "long": -114.2863621,
+      "summary": ""
+    },
+    {
+      "name": "Gardiner, Montana",
+      "time": "2025",
+      "lat": 45.0604027,
+      "long": -110.7748659,
+      "summary": ""
+    },
+    {
+      "name": "Old Faithful, Wyoming",
+      "time": "2025",
+      "lat": 44.4604788,
+      "long": -110.830718,
+      "summary": ""
+    },
+    {
+      "name": "Philadelphia, Pennsylvania",
+      "time": "2025",
+      "lat": 40.0008291,
+      "long": -75.7411943,
+      "summary": ""
+    },
+    {
+      "name": "Dallas, Texas",
+      "time": "2025",
+      "lat": 32.8180703,
+      "long": -97.0624374,
+      "summary": ""
     }
   ]
 }
