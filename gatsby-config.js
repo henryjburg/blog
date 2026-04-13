@@ -10,9 +10,9 @@ module.exports = {
     title: `Henry's Travel Diary`,
     author: {
       name: `Henry Burgess`,
-      summary: `I love to go on new adventures and explore what the USA has to offer!`,
+      summary: `Avid fisherman and outdoorsman, always looking for new adventures!`,
     },
-    description: `Henry's travel adventures in the USA and around the world!`,
+    description: `Henry's outdoor adventures in the USA and around the world!`,
     siteUrl: `https://henryburgess.net`,
     social: {
       instagram: `henryjburg`,

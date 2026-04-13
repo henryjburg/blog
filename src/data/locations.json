@@ -414,6 +414,13 @@
       "summary": ""
     },
     {
+      "name": "Albuquerque, New Mexico",
+      "time": "2024",
+      "lat": 35.08447715355367,
+      "long": -106.61189174202075,
+      "summary": ""
+    },
+    {
       "name": "Gatlinburg, Tennessee",
       "time": "2024",
       "lat": 35.7272984,
@@ -481,6 +488,20 @@
       "time": "2025",
       "lat": 32.8180703,
       "long": -97.0624374,
+      "summary": ""
+    },
+    {
+      "name": "Richmond, Virginia",
+      "time": "2025",
+      "lat": 37.540716038072986,
+      "long": -77.44013122019724,
+      "summary": ""
+    },
+    {
+      "name": "Raleigh, North Carolina",
+      "time": "2025",
+      "lat": 35.777074190946635,
+      "long": -78.6304738450376,
       "summary": ""
     }
   ]
