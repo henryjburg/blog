@@ -15,7 +15,6 @@ module.exports = {
     description: `Henry's outdoor adventures in the USA and around the world!`,
     siteUrl: `https://henryburgess.net`,
     social: {
-      instagram: `henryjburg`,
       github: `henryjburg`,
       linkedin: `henryjburg`,
     },
