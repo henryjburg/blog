@@ -107,6 +107,10 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
+      state: String
+      elevation: String
+      distance: String
+      species: [String]
     }
 
     type Fields {

@@ -2,6 +2,10 @@
 title: Half Dome, Yosemite National Park, CA
 date: "2022-08-25"
 archive: false
+state: "CA"
+elevation: ""
+distance: ""
+species: []
 ---
 
 Climbing Half Dome was easily the biggest adrenaline rush I had during my time in Yosemite National Park. I was fortunate enough to get lottery

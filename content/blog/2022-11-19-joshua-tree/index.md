@@ -2,6 +2,10 @@
 title: Joshua Tree National Park, CA
 date: "2022-11-19"
 archive: false
+state: "CA"
+elevation: ""
+distance: "8 mi"
+species: []
 ---
 
 My first solo backcountry experience was in Joshua Tree National Park. After attending a conference in San Diego, I packed

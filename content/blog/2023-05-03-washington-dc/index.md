@@ -2,6 +2,10 @@
 title: Washington D.C.
 date: "2023-05-03"
 archive: false
+state: "DC"
+elevation: ""
+distance: ""
+species: []
 ---
 
 Dad was in town for a few weeks, so we headed up to Washington D.C. for a few days! This was another nice "metro" trip in the sense we weren't hiking or scrambling between waypoints...

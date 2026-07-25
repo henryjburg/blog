@@ -4,12 +4,28 @@ import { Link, graphql } from "gatsby";
 import Bio from "../components/bio";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+import ContourDivider from "../components/contour-divider";
 
 const PostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`;
+  const { frontmatter } = post;
+  const dateParts = new Date(`${frontmatter.date}T00:00:00`);
+  const stampMonth = dateParts.toLocaleDateString("en-US", { month: "short" });
+  const stampDay = dateParts.toLocaleDateString("en-US", { day: "numeric" });
+  const stampYear = dateParts.toLocaleDateString("en-US", { year: "numeric" });
+
+  const stats = [
+    frontmatter.state && { label: "State", value: frontmatter.state },
+    frontmatter.elevation && { label: "Elev", value: frontmatter.elevation },
+    frontmatter.distance && { label: "Dist", value: frontmatter.distance },
+    frontmatter.species?.length > 0 && {
+      label: "Caught",
+      value: frontmatter.species.join(", "),
+    },
+  ].filter(Boolean);
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -19,14 +35,29 @@ const PostTemplate = ({
         itemType="http://schema.org/Article"
       >
         <header>
-          <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <div className="post-header-row">
+            <h1 itemProp="headline">{frontmatter.title}</h1>
+            <div className="trip-stamp">
+              <span className="trip-stamp-month">{stampMonth}</span>
+              <span className="trip-stamp-day">{stampDay}</span>
+              <span className="trip-stamp-year">{stampYear}</span>
+            </div>
+          </div>
+          {stats.length > 0 && (
+            <ul className="trip-stats">
+              {stats.map(stat => (
+                <li className="trip-stat" key={stat.label}>
+                  {stat.label}: {stat.value}
+                </li>
+              ))}
+            </ul>
+          )}
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />
-        <hr />
+        <ContourDivider />
         <footer>
           <Bio />
         </footer>
@@ -90,8 +121,12 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY-MM-DD")
         description
+        state
+        elevation
+        distance
+        species
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

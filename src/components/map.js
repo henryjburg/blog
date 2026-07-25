@@ -3,7 +3,7 @@ import L from "leaflet";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 // Updated pin graphic
-import pin from "../images/pin.png";
+import pin from "../images/pin.svg";
 
 // Location data
 import locationData from "../data/locations.json";
@@ -16,7 +16,9 @@ const Map = () => {
     // Create a new pin icon if the window is defined
     pinIcon = L.icon({
       iconUrl: pin,
-      iconSize: [30, 30],
+      iconSize: [26, 34],
+      iconAnchor: [13, 34],
+      popupAnchor: [0, -30],
     });
 
     // Setup map bounds
@@ -24,7 +26,7 @@ const Map = () => {
   }
 
   return (
-    <MapContainer style={{ height: "400px" }} center={[38.653253, -90.4082702]} zoom={2} scrollWheelZoom={false} maxBoundsViscosity={1.0} maxBounds={mapBounds}>
+    <MapContainer className="topo-map" style={{ height: "400px" }} center={[38.653253, -90.4082702]} zoom={2} scrollWheelZoom={false} maxBoundsViscosity={1.0} maxBounds={mapBounds}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

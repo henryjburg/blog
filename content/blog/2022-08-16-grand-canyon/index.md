@@ -2,6 +2,10 @@
 title: Grand Canyon National Park, AZ
 date: "2022-08-16"
 archive: false
+state: "AZ"
+elevation: ""
+distance: ""
+species: []
 ---
 
 We first landed in Las Vegas, and drove through the night to catch sunrise at the **North Rim** of Grand Canyon National Park, AZ.

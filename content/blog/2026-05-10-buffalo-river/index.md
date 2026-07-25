@@ -2,6 +2,12 @@
 title: Buffalo National River, AR
 date: "2026-05-10"
 archive: false
+state: "AR"
+elevation: ""
+distance: "10 mi (float)"
+species:
+  - "Smallmouth Bass"
+  - "Sunfish"
 ---
 
 At the end of my Spring semester for grad school, I wanted to take a weekend to get offline and see a new part of the US.

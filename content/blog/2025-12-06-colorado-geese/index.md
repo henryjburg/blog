@@ -2,6 +2,11 @@
 title: Denver, CO
 date: "2025-12-06"
 archive: false
+state: "CO"
+elevation: "10,000 ft"
+distance: ""
+species:
+  - "Goose"
 ---
 
 I had met my buddy Damian at the wedding in North Carolina a few weeks earlier (see my [Raleigh, NC](/2025-11-08-raleigh-north-carolina) trip) and we had bonded over fishing. He offered me the open spot on his

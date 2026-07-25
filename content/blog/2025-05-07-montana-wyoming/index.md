@@ -2,6 +2,10 @@
 title: Montana, Wyoming
 date: "2025-05-07"
 archive: false
+state: "MT, WY"
+elevation: ""
+distance: ""
+species: []
 ---
 
 In early May, I embarked on a solo trip aiming to cover multiple National Parks across Montana and Wyoming. This was to take advantage of the two week break I had between semesters!

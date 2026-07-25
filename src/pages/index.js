@@ -22,10 +22,19 @@ const Index = ({ data, location }) => {
     );
   }
 
+  const years = activePosts.map(post => post.frontmatter.date.slice(-4));
+  const firstYear = years[years.length - 1];
+  const lastYear = years[0];
+  const yearRange = firstYear === lastYear ? firstYear : `${firstYear}–${lastYear}`;
+
   return (
     <Layout location={location} title={title}>
       <Bio />
-      <ol style={{ listStyle: `none` }}>
+      <p className="trip-count">
+        {activePosts.length} trip{activePosts.length === 1 ? `` : `s`} logged
+        &nbsp;·&nbsp; {yearRange}
+      </p>
+      <ol className="journal-list" style={{ listStyle: `none` }}>
         {activePosts.map(post => {
           const title = post.frontmatter.title || post.fields.slug;
 
@@ -42,7 +51,9 @@ const Index = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small className="post-list-item-date">
+                    {post.frontmatter.date}
+                  </small>
                 </header>
                 <section>
                   <p

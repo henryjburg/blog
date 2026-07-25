@@ -2,6 +2,10 @@
 title: Monterey, CA
 date: "2024-01-21"
 archive: false
+state: "CA"
+elevation: ""
+distance: ""
+species: []
 ---
 
 After 2023 was less travel-filled compared to 2022, I set some goals to continue to get out a bit more and cover off more of the US that I was keen to see. It was almost 12 months since I last visited my friends in San Francisco, so I found some cheaper fares and headed over for a weekend in January. At the end of my last entry about San Francisco, I mentioned Monterey was driving distance from SF, so this time I decided to rent a car for a day and drive south to check it out!

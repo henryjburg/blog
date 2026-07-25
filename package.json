@@ -6,8 +6,9 @@
   "author": "Henry Burgess <henryjburg@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@fontsource/merriweather": "^4.5.14",
-    "@fontsource/montserrat": "^4.5.14",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/literata": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
     "gatsby": "^5.8.1",
     "gatsby-plugin-feed": "^5.8.0",
     "gatsby-plugin-google-gtag": "^5.10.0",

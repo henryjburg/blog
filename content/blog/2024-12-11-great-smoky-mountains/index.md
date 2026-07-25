@@ -2,6 +2,10 @@
 title: Great Smoky Mountains National Park, TN
 date: "2024-12-11"
 archive: false
+state: "TN"
+elevation: ""
+distance: ""
+species: []
 ---
 
 My parents were visting through December, so we made the trip out to the Smokies to spend a couple of days outside of St. Louis. We drove, so this gave us plenty of flexibility to explore the area.

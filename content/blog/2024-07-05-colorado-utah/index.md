@@ -2,6 +2,10 @@
 title: Colorado, Utah
 date: "2024-07-05"
 archive: false
+state: "CO, UT"
+elevation: ""
+distance: "~4,000 mi"
+species: []
 ---
 
 Colorado and Utah are two US states that had been on my bucketlist for a while. When my dad came over to visit through

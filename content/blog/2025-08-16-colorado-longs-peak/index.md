@@ -2,6 +2,11 @@
 title: Longs Peak, CO
 date: "2025-08-16"
 archive: false
+state: "CO"
+elevation: ""
+distance: "6 mi each way"
+species:
+  - "Cutthroat Trout"
 ---
 
 My buddy Carl and I hadn't been able to go on an adventure in a while so we found a weekend in August we could take a

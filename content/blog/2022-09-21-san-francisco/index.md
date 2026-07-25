@@ -2,6 +2,10 @@
 title: San Francisco, CA
 date: "2022-09-21"
 archive: false
+state: "CA"
+elevation: ""
+distance: ""
+species: []
 ---
 
 Booked a few months in advance (meaning I almost forgot about this trip after the previous adventures in California), I went to visit some friends who had moved to San Francisco. I was looking forward to a more "metro" trip experience, enjoying the coffee and pastries rather than hiking and exerting myself!

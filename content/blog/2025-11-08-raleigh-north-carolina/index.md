@@ -2,6 +2,13 @@
 title: Raleigh, NC
 date: "2025-11-08"
 archive: false
+state: "NC"
+elevation: ""
+distance: ""
+species:
+  - "Rainbow Trout"
+  - "Brown Trout"
+  - "Brook Trout"
 ---
 
 I had some friends of mine getting married just outside of Raleigh, so I made sure to pack my fly fishing gear and headed

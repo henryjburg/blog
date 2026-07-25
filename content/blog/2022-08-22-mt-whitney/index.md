@@ -2,6 +2,10 @@
 title: Mt. Whitney, CA
 date: "2022-08-22"
 archive: false
+state: "CA"
+elevation: "14,505 ft"
+distance: ""
+species: []
 ---
 
 Reaching the summit of Mt. Whitney is one of my favourite personal achievements. For context, Mt. Whitney (14,505ft) is

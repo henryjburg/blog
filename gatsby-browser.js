@@ -1,6 +1,8 @@
 // Custom typefaces
-import "@fontsource/montserrat/variable.css";
-import "@fontsource/merriweather";
+import "@fontsource-variable/fraunces/opsz.css";
+import "@fontsource-variable/literata";
+import "@fontsource/jetbrains-mono/400.css";
+import "@fontsource/jetbrains-mono/500.css";
 
 // Normalize CSS across browsers
 import "./src/normalize.css";

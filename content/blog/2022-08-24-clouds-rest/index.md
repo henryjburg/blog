@@ -2,6 +2,10 @@
 title: Clouds Rest, Yosemite National Park, CA
 date: "2022-08-24"
 archive: false
+state: "CA"
+elevation: ""
+distance: ""
+species: []
 ---
 
 Clouds Rest felt like a hidden gem inside of Yosemite National Park - it required entering the park from another entrance.
