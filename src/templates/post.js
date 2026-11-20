@@ -22,7 +22,7 @@ const PostTemplate = ({
     frontmatter.elevation && { label: "Elev", value: frontmatter.elevation },
     frontmatter.distance && { label: "Dist", value: frontmatter.distance },
     frontmatter.species?.length > 0 && {
-      label: "Caught",
+      label: "Species",
       value: frontmatter.species.join(", "),
     },
   ].filter(Boolean);
